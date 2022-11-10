@@ -1,4 +1,27 @@
 package br.com.dio.desafio.dominio;
 
-public class Conteudo {
+public abstract class Conteudo {
+//Com essa classe abstrata eu não consigo criar o conteúdo, ou seja, instanciar
+    protected static final double XP_PADRAO = 10d; //constante, o conteúdo vai ser criado com um XP padrão. Somente os filhos da classe tem acesso
+
+    private String titulo;
+    private String descricao;
+
+    public abstract double calcularXp();
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
 }
