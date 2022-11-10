@@ -1,3 +1,5 @@
+package br.com.dio.desafio.dominio;
+
 import java.time.LocalDate;
 
 public class Mentoria {
@@ -34,7 +36,7 @@ public class Mentoria {
 
     @Override
     public String toString() {
-        return "Mentoria{" +
+        return "br.com.dio.desafio.dominio.Mentoria{" +
                 "titulo='" + titulo + '\'' +
                 ", descricao='" + descricao + '\'' +
                 ", data=" + data +

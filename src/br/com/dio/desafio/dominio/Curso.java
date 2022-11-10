@@ -1,3 +1,5 @@
+package br.com.dio.desafio.dominio;
+
 public class Curso {
     private String titulo;
     private String descricao;
@@ -32,7 +34,7 @@ public class Curso {
 
     @Override
     public String toString() {
-        return "Curso{" +
+        return "br.com.dio.desafio.dominio.Curso{" +
                 "titulo='" + titulo + '\'' +
                 ", descricao='" + descricao + '\'' +
                 ", cargaHoraria=" + cargaHoraria +
